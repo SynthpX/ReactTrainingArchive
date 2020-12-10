@@ -31,21 +31,26 @@ React is a JavaScript library for building user interfaces.
 
 ## Function 
 
-    Fungsi biasa : 
+    Fungsi Biasa : 
+
     ```js
     function namaku(nama){
         console.log(nama);
     }
     namaku('Adli');
     ```
-    Fungsi arrow : 
+
+    Fungsi Arrow : 
+
     ```js
     const namalu = (nama) => {
         console.log(nama);
     }
     namalu('WHatever');
     ```
-    short version 
+
+    Short version 
+
     ```js
     const namalu = nama => nama;
     console.log(namalu('Adli'));
