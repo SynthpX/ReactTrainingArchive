@@ -31,8 +31,8 @@ React is a JavaScript library for building user interfaces.
 
 ## Function 
 
-    Fungsi Biasa : 
-
+    //Fungsi Biasa
+    
     ```js
     function namaku(nama){
         console.log(nama);
@@ -40,7 +40,7 @@ React is a JavaScript library for building user interfaces.
     namaku('Adli');
     ```
 
-    Fungsi Arrow : 
+    //Fungsi Arrow
 
     ```js
     const namalu = (nama) => {
@@ -49,7 +49,7 @@ React is a JavaScript library for building user interfaces.
     namalu('WHatever');
     ```
 
-    Short version 
+    //Short version 
 
     ```js
     const namalu = nama => nama;
