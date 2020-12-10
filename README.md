@@ -4,7 +4,7 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 
 ## TODO LIST
 
-- [ ] Refresh Javascript Knowlegde
+- [ ] Refresh Javascript Knowlegde [NextGen]
 - [ ] Pemahaman Fitur Basic
 - [ ] Komponen React
 - [ ] Simple Project
@@ -12,6 +12,46 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 - [ ] Advance Project
 - [ ] HTTP/AJAX
 - [ ] 
+
+
+## REACT
+Soem note that i want to wrtie
+
+React is a JavaScript library for building user interfaces.
+ ### Let & Const
+    Instead of using 'var' , its highly incourage to use 'let' and 'const'.
+
+    let = Variable values
+    const = Constat values
+
+    ```js
+    let namaku = 'Adli';
+    const phi = 3.14;
+    ```
+
+## Function 
+
+    Fungsi biasa : 
+    ```js
+    function namaku(nama){
+        console.log(nama);
+    }
+    namaku('Adli');
+    ```
+    Fungsi arrow : 
+    ```js
+    const namalu = (nama) => {
+        console.log(nama);
+    }
+    namalu('WHatever');
+    ```
+    short version 
+    ```js
+    const namalu = nama => nama;
+    console.log(namalu('Adli'));
+    ```
+
+
 
 ## About me
 
