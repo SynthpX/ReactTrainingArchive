@@ -18,42 +18,42 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 Soem note that i want to wrtie
 
 React is a JavaScript library for building user interfaces.
- ### Let & Const
 
-    let = Variable values.
-    const = Constat values.
+### SLet & Const
 
-    ```js
-    let namaku = 'Adli';
-    const phi = 3.14;
-    ```
+let = Variable values.
+const = Constat values.
+
+```js
+let namaku = 'Adli';
+const phi = 3.14;
+```
 
 ## Function 
+Fungsi Biasa
 
-    //Fungsi Biasa
+```js
+function namaku(nama){
+    console.log(nama);
+}
+namaku('Adli');
+```
 
-    ```js
-    function namaku(nama){
-        console.log(nama);
-    }
-    namaku('Adli');
-    ```
+Fungsi Arrow
 
-    //Fungsi Arrow
+```js
+const namalu = (nama) => {
+    console.log(nama);
+}
+namalu('WHatever');
+```
 
-    ```js
-    const namalu = (nama) => {
-        console.log(nama);
-    }
-    namalu('WHatever');
-    ```
+Short version 
 
-    //Short version 
-
-    ```js
-    const namalu = nama => nama;
-    console.log(namalu('Adli'));
-    ```
+```js
+const namalu = nama => nama;
+console.log(namalu('Adli'));
+```
 
 
 
