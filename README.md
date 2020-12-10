@@ -17,7 +17,7 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 ## REACT
 Soem note that i want to wrtie. React is a JavaScript library for building user interfaces.
 
-### SLet & Const
+### Let & Const
 
 let = Variable values.
 const = Constat values.
@@ -113,18 +113,108 @@ orang.printJK();
 
 ```
 
-
 ### Class , Properties dan Methods
+Class juga dapat digunakan seperti ini 
+
+```js
+class Manusia {
+  jk = 'laki-laki';
+
+  printJK = () => {
+    console.log(this.jk);
+  }
+}
+
+class Orang extends Manusia {
+    nama = 'Adli';
+    jk = 'perempuan';
+
+  printNama = () => {
+    console.log(this.nama);
+  }
+}
+
+const orang = new Orang();
+orang.printNama();
+orang.printJK();
+
+```
+
 ### Spread & Rest Operator
+Spread digunakan untuk split Array atau property dalam sebuah objek.
+```js
+
+//Array
+const nomor = [1,2,3];
+const nomor1 = [...nomor, 4];
+
+console.log(nomor1); // Output [1,2,3,4]
+
+//Object
+const orang = {
+  nama: 'Adli'
+};
+
+const newOrang = {
+  ...orang,
+  umur:28
+}
+
+console.log(newOrang); // Output nama:"Adli" , umur:28
+```
+Rest digunakan untuk Merge list dari argumen sebuah fungsi menjadi array.
+```js
+const y = (...args) => {
+  return args.filter(el => el === 1);
+}
+
+console.log(y(1,2,3)); // Output 1
+
+```
 ### Destructuring
-### Referefce
-### Fungsi Array
+Digunakan untuk extract elemen dari sebuah array atau object dan menyimpannya kedalam sebuah variabel.
+
+Array Destructuring
+
+```js
+const nomor = [1,2,3];
+[no1,no2] = nomor;
+console.log(no1,no2); //Output 1 2 
+```
+
+Object Destructuring
+
+```js
+{nama} = {nama:'Adli',umur:23}
+console.log(nama); // Output Adli
+console.log(umur); // Output 23
+```
+
+### Catatan Fungsi Array (Little Important) //Havent Read Yet <- Remove This when u read it alreayd>
+
+- map() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+- find() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find
+
+- findIndex() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex
+
+- filter() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+- reduce() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce?v=b
+
+- concat() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat?v=b
+
+- slice() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice
+
+- splice() https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice
+
 
 
 
 
 ## About me
 
+SynthPX
 
 [<img alt="SyntpX" src="https://avatars1.githubusercontent.com/u/25601493?s=460&u=c2b4e683d917003c1af50087cd5b5ce10953077a&v=4" width="117">](https://github.com/SynthpX)
 
