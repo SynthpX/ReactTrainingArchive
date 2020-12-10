@@ -4,7 +4,7 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 
 ## TODO LIST
 
-- [ ] Refresh Javascript Knowlegde [NextGen]
+- [ ] [Refresh Javascript Knowlegde](#REACT)
 - [ ] Pemahaman Fitur Basic
 - [ ] Komponen React
 - [ ] Simple Project
@@ -15,9 +15,7 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 
 
 ## REACT
-Soem note that i want to wrtie
-
-React is a JavaScript library for building user interfaces.
+Soem note that i want to wrtie. React is a JavaScript library for building user interfaces.
 
 ### SLet & Const
 
@@ -29,7 +27,7 @@ let namaku = 'Adli';
 const phi = 3.14;
 ```
 
-## Function 
+### Function 
 Fungsi Biasa
 
 ```js
@@ -54,6 +52,74 @@ Short version
 const namalu = nama => nama;
 console.log(namalu('Adli'));
 ```
+
+### Exports and Imports
+In React you split your code across multiple JavaScript files - so-called modules. You do this, to keep each file/module focused and manageable.
+
+Ada 2 tipe dari export , yaitu default  dan named exports : 
+
+- default
+
+```js
+import namaApa from './path/ke/file.js';
+```
+- named
+
+```js
+import {data} from './path/ke/file.js';
+```
+
+
+### Class
+
+Class merupakan fitur yang menggantikan fungsi constructor dan prototype. Contoh Class 
+```js
+class Manusia {
+  constructor(){
+    this.jk = 'laki-laki';
+  }
+  printJK(){
+    console.log(this.jk);
+  }
+}
+```
+
+Contoh Inheritance menggunakan class 
+
+```js
+class Manusia {
+  constructor(){
+    this.jk = 'laki-laki';
+  }
+  printJK(){
+    console.log(this.jk);
+  }
+}
+
+class Orang extends Manusia {
+  constructor(){
+    super();
+    this.nama = 'Adli';
+    this.jk = 'perempuan';
+  }
+  printNama(){
+    console.log(this.nama);
+  }
+}
+
+const orang = new Orang();
+orang.printNama();
+orang.printJK();
+
+```
+
+
+### Class , Properties dan Methods
+### Spread & Rest Operator
+### Destructuring
+### Referefce
+### Fungsi Array
+
 
 
 
