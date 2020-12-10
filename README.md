@@ -19,10 +19,9 @@ Soem note that i want to wrtie
 
 React is a JavaScript library for building user interfaces.
  ### Let & Const
-    Instead of using 'var' , its highly incourage to use 'let' and 'const'.
 
-    let = Variable values
-    const = Constat values
+    let = Variable values.
+    const = Constat values.
 
     ```js
     let namaku = 'Adli';
@@ -32,7 +31,7 @@ React is a JavaScript library for building user interfaces.
 ## Function 
 
     //Fungsi Biasa
-    
+
     ```js
     function namaku(nama){
         console.log(nama);
