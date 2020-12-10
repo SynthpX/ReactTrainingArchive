@@ -11,7 +11,7 @@ Tujuan dari latihan daily arsip React JS ini adalah untuk ISENG. YA ISENG. BECAU
 - [ ] Advance Komponen React
 - [ ] Advance Project
 - [ ] HTTP/AJAX
-- [ ] 
+- [ ] Lengkapi Documentation
 
 
 ## REACT
